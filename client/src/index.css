@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  background-color: #eee;
+  text-align: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.flex-container {
+  display: inline-flex;
+  flex-wrap:wrap;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.align-right{
+  text-align: right;
+}
+.menu{
+  position: fixed;
+  display: flex;
+  justify-content:flex-end;
+  
+  align-items:flex-end;
+  *flex-wrap: wrap;
+  *align-content: space-between;
+  z-index: 100;
+  height: 300px;
+  width: 350px;
+  right: 50px;
+  bottom: 30px;
+  
+}
+
+.MuiFormGroup-root{
+  background-color: "#fff";
+  border-radius: 10px;
+}

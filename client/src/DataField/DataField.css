@@ -1,0 +1,57 @@
+.data-field{
+    margin-top: 5%;
+    font-weight: bold;
+}
+.data-field_black{
+    color: #000;
+}
+.data-field_blue{
+    color: #134FE6;
+}
+.data-field_red{
+    color: #F2321D;
+}
+.data-field_red-extra{
+    animation-name: colorGreenRed;
+    animation-iteration-count: 3;
+    animation-duration: 300ms;
+}
+.data-field_green{
+    color: #388e3c;
+}
+.data-field_green-extra{
+    animation-name: colorRedGreen;
+    animation-iteration-count: 3;
+    animation-duration: 300ms;
+}
+
+.data-field__arrow{
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.data-field__ticker{
+}
+
+@keyframes colorGreenRed {
+    from {
+        color: #388e3c;
+        text-shadow: -2px -2px 2px #F2321D, 2px -2px 2px #F2321D, -2px 2px 2px #F2321D, 2px 2px 2px #F2321D;
+    }
+    to{
+        color: #F2321D;
+        text-shadow: 0;
+    }
+    
+}
+@keyframes colorRedGreen {
+    from {
+        color: #F2321D;
+        text-shadow: -2px -2px 2px #388e3c, 2px -2px 2px #388e3c, -2px 2px 2px #388e3c, 2px 2px 2px #388e3c;
+    }
+    to {
+        color: #388e3c;
+        text-shadow: 0;
+    }
+}

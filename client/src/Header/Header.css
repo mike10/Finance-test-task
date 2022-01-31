@@ -1,0 +1,32 @@
+.header{
+    margin-top: 5%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.header__error-message_on,
+.header__error-message_off{
+    display: block;
+    position: absolute;
+    font-size: 10px;
+    color: #F2321D;
+    transition-property: opacity;
+    transition-duration: 1s;
+    opacity: 0;
+}
+.header__error-message_on{
+    opacity: 1;            
+}
+
+.header__icon:hover{
+    color: #F2321D;
+}
+
+.header__input,
+.MuiFormTextField-root {
+    width: 150px;
+    background-color: #fff;
+    font-weight: 600!important;
+}
